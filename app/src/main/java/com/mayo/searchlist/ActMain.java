@@ -35,7 +35,8 @@ public class ActMain extends Activity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                mAdapter.getFilter().filter(s);
+//                mAdapter.getFilter().filter(s);
+                onSearchRequested();
             }
 
             @Override
